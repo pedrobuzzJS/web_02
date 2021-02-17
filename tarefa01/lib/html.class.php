@@ -3,7 +3,7 @@
     class html {
 
         private $lang;
-        private $array_tags[];
+        private $array_tags = array();
 
         public function __construct($lang) {
             $this->lang = $lang;
