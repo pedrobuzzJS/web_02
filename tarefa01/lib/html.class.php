@@ -3,14 +3,14 @@
     class html {
 
         private $lang;
-        private $array_tags;
+        private $array_tags[];
 
         public function __construct($lang) {
             $this->lang = $lang;
         }
 
         public function arrayElements($array) {
-            $this->array_tags = $array;
+            $this->array_tags[] = $array;
         }
 
         public function __toString() {
