@@ -3,5 +3,5 @@
         $arquivo = $_SERVER["DOCUMENT_ROOT"]."./lib/".$class."_class.php";
         if (file_exists($arquivo)) {
             require $arquivo;
-        }
+        } 
     });
