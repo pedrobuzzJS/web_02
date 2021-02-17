@@ -8,7 +8,7 @@
 
     $html = new html('en');
 
-    $head = new head();
+    $head = new head('Hello, world!');
 
     $body = new body();
 
