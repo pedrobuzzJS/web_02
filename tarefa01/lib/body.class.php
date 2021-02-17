@@ -4,19 +4,15 @@
 
         private $array_tags = array();
 
-        public function __construct($lang) {
-            $this->lang = $lang;
-        }
-
         public function arrayElements($array) {
             $this->array_tags[] = $array;
         }
 
         public function __toString() {
 
-            $body = '<body class="'.$this->class.'">';
+            $body = '<body class="">';
 
-            foreach ($this->liarray_tags as $tags) {
+            foreach ($this->array_tags as $tags) {
                 $body .= $tags;
             }
             

@@ -6,7 +6,9 @@
 
     $html = new html('en');
     $head = new head();
+    $body = new body();
 
     $html->arrayElements($head);
+    $html->arrayElements($body);
 
     echo $html;
