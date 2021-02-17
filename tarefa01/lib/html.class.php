@@ -16,7 +16,7 @@
         public function __toString() {
 
             $html = '</doctype html>';
-            $html = '<html lang="'.$this->language.'">';
+            $html = '<html lang="'.$this->lang.'">';
 
             foreach ($this->array_tags as $tags) {
                 $html .= $tags;
